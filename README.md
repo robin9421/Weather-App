@@ -21,13 +21,15 @@ Ensure you have the following installed:
 	•	A web browser (for frontend)
 
 2️⃣ Clone the Repository
-
+```
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
+```
 
 3️⃣ Install Dependencies
-
+```
 npm install
+```
 
 4️⃣ Set Up the Database
 	1.	Open MySQL:
@@ -36,7 +38,7 @@ npm install
 mysql -u root -p
 ```
 
-2.	Run the SQL script to create the necessary tables:
+**2.**	Run the SQL script to create the necessary tables:
 
 ```
 SOURCE Database/weather_data.sql;
