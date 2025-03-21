@@ -1,39 +1,51 @@
-# 🌦️ Weather Data Aggregator
+Here’s a clean and properly structured version of your documentation with consistent formatting, spacing, and layout improvements:
 
-## 📌 Project Overview
-This is a simple weather web app that fetches and displays weather data for different cities using the **OpenWeatherMap API**.  
+⸻
+
+🌦️ Weather Data Aggregator
+
+📌 Project Overview
+
+This is a simple weather web app that fetches and displays weather data for different cities using the OpenWeatherMap API.
+
 It includes:
-- A **frontend** built with **HTML, CSS, and JavaScript**.
-- A **Node.js backend** using **Express & Axios**.
-- A **MySQL database** to store historical weather data.
+	•	A frontend built with HTML, CSS, and JavaScript
+	•	A Node.js backend using Express & Axios
+	•	A MySQL database to store historical weather data
 
----
+⸻
 
-## 🛠️ Setup & Installation
+🛠️ Setup & Installation
 
-### 1️⃣ Prerequisites
+1️⃣ Prerequisites
+
 Ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (for backend)
-- [MySQL](https://www.mysql.com/) (for database)
-- A web browser (for frontend)
+	•	Node.js (for backend)
+	•	MySQL (for database)
+	•	A web browser (for frontend)
 
-### 2️⃣ Clone the Repository
+2️⃣ Clone the Repository
+
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
 
-### 3️⃣ Install Dependencies
+3️⃣ Install Dependencies
 
 npm install
 
-### 4️⃣ Set Up the Database
-1.	Open MySQL and create the database:
-	mysql -u root -p
+4️⃣ Set Up the Database
+	1.	Open MySQL:
 
-2.	Run the SQL script to create tables:
+mysql -u root -p
+
+
+	2.	Run the SQL script to create the necessary tables:
 
 SOURCE Database/weather_data.sql;
 
-### 5️⃣ Run the Backend Server
+
+
+5️⃣ Run the Backend Server
 
 node app.js
 
@@ -41,29 +53,38 @@ You should see:
 
 Server running on port 3000
 
-### 6️⃣ Open the Frontend
-•	Open index.html in your browser.
-•	Enter a city name and click “Get Weather”.
+6️⃣ Open the Frontend
+	•	Open index.html in your browser
+	•	Enter a city name and click “Get Weather”
 
 ⸻
 
-### 📂 Project Structure
+📂 Project Structure
 
 📁 demo
-│── 📁 Database
-│   └── weather_data.sql  # SQL file to create database & table
-│── app.js                # Express backend
-│── index.html            # Frontend UI
-│── package.json          # Project dependencies
-│── yarn.lock             # Dependency lock file
+├── 📁 Database
+│   └── weather_data.sql        # SQL file to create database & table
+├── app.js                      # Express backend
+├── index.html                  # Frontend UI
+├── package.json                # Project dependencies
+└── yarn.lock                   # Dependency lock file
 
+
+
+⸻
 
 🔒 Security Considerations
-	•	Prevent SQL Injection → Use prepared statements.
-	•	Avoid API Key Exposure → Store in .env (not hardcoded in app.js).
-	•	Rate Limiting → Implement API request throttling to prevent abuse.
+	•	Prevent SQL Injection → Use prepared statements
+	•	Avoid API Key Exposure → Store API keys in .env (do not hardcode in app.js)
+	•	Rate Limiting → Implement API request throttling to prevent abuse
+
+⸻
 
 👨‍💻 Author
 
 Robin Prajapati
 📧 Email: your-email@example.com
+
+⸻
+
+Let me know if you’d like to add screenshots, deployment instructions, or API response examples!
