@@ -31,9 +31,9 @@ npm install
 
 4️⃣ Set Up the Database
 	1.	Open MySQL:
-
+```
 mysql -u root -p
-
+```
 
 	2.	Run the SQL script to create the necessary tables:
 
@@ -46,8 +46,9 @@ SOURCE Database/weather_data.sql;
 node app.js
 
 You should see:
-
+```
 Server running on port 3000
+```
 
 6️⃣ Open the Frontend
 	•	Open index.html in your browser
