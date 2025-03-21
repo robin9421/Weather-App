@@ -20,13 +20,13 @@ Ensure you have the following installed:
 ### 2️⃣ Clone the Repository
 ```sh
 git clone https://github.com/your-username/weather-app.git
-cd weather-app
+cd weather-app ```
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 
 npm install
 
-4️⃣ Set Up the Database
+### 4️⃣ Set Up the Database
 	1.	Open MySQL and create the database:
 
 mysql -u root -p
@@ -35,7 +35,7 @@ mysql -u root -p
 
 SOURCE Database/weather_data.sql;
 
-5️⃣ Run the Backend Server
+### 5️⃣ Run the Backend Server
 
 node app.js
 
@@ -43,13 +43,13 @@ You should see:
 
 Server running on port 3000
 
-6️⃣ Open the Frontend
+### 6️⃣ Open the Frontend
 	•	Open index.html in your browser.
 	•	Enter a city name and click “Get Weather”.
 
 ⸻
 
-📂 Project Structure
+### 📂 Project Structure
 
 📁 demo
 │── 📁 Database
