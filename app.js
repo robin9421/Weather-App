@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 const PORT = 3000;
-const API_KEY = '583142a51d4bddab6e15be6f0d5bb24b';
+const API_KEY = 'ADD API KEY HERE';
 
 // Middleware to allow CORS for frontend requests
 app.use(require('cors')());
