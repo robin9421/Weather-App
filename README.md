@@ -56,7 +56,7 @@ Server running on port 3000
 ⸻
 
 📂 Project Structure
-
+```
 📁 demo
 ├── 📁 Database
 │   └── weather_data.sql        # SQL file to create database & table
@@ -64,6 +64,7 @@ Server running on port 3000
 ├── index.html                  # Frontend UI
 ├── package.json                # Project dependencies
 └── yarn.lock                   # Dependency lock file
+```
 
 
 
