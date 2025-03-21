@@ -80,7 +80,7 @@ Server running on port 3000
 👨‍💻 Author
 
 Robin Prajapati
-📧 Email: your-email@example.com
+📧 Email: probin.mscs@gmail.com
 
 ⸻
 
