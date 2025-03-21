@@ -31,14 +31,16 @@ npm install
 
 4️⃣ Set Up the Database
 	1.	Open MySQL:
+
 ```
 mysql -u root -p
 ```
 
-	2.	Run the SQL script to create the necessary tables:
+2.	Run the SQL script to create the necessary tables:
 
+```
 SOURCE Database/weather_data.sql;
-
+```
 
 
 5️⃣ Run the Backend Server
