@@ -1,7 +1,3 @@
-Here’s a clean and properly structured version of your documentation with consistent formatting, spacing, and layout improvements:
-
-⸻
-
 🌦️ Weather Data Aggregator
 
 📌 Project Overview
